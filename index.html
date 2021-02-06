@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>モーダルウィンドウ</title>
+</head>
+<body>
+    <form action="modal_send.html" method="GET">
+    <div id="form-area">
+        <input id="name" name="name" type="text" placeholder="10字以内">
+        <button id="button" type="button">入力内容を確認</button>
+    </div>
+    <div id="modal-area">
+        <div class="modal-wrap">
+            <div class="modal-contents">
+                <div id="name-area"></div>
+                <div id="btn-area">
+                    <button id="send">送信する</button>
+                    <button id="modal-close" type="button">確認OK</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </form>
+</body>
+<script type="text/javascript" src="./js/modal.js"></script>
+</html>
